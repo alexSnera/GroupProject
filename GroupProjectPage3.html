@@ -46,17 +46,31 @@
     </h2>
     
     <script>
-    function required(){
-        
-    }
+    function z()
+{
+var a=document.getElementById("test");
+if((a.value=="Hello there!"))
+{
+document.getElementById('err').innerHTML= 'correct';
+
+}
+else
+{
+document.getElementById('err').innerHTML= 'wrong';
+
+}
+
+}
 
     </script>
+    
       
 
     
     <form action="GroupProjectPage4.html" method="GET">
-        <input type ="text" id = "Hello there!" required >
-        <input type="submit" /> 
+        <input type="text" id="test">
+        <input type="button" value="click" onclick="z()"><span id="err"></span>
+        
         
     </form>
   
