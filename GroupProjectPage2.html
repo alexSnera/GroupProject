@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Entered a waterfall....
-        </title>
-    </head>
-    <style>
-        body{
-            font-size: 32px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: rgb(20, 183, 220);
-            background-color: rgb(235, 173, 135);
-        }
-        h1{
-            font-family: cursive;
-            color: red;
-        }
 
+<head>
+  <title>
+    Entered a waterfall....
+  </title>
+</head>
+<style>
+  body {
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(20, 183, 220);
+    background-color: rgb(32, 31, 31);
+  }
 
-    </style>
-    <body>
-        Unlocked a secret area! 
-    </body>
-    <h1> 
+  h1 {
+    font-family: cursive;
+    color: red;
+  }
+</style>
 
-    </h1><img src = WaterfallP.png
-    height="400" width="600"/>
-    <h2>
-        what is this?
-    </h2>
-</h2><img src = ZB1.png
-height="300" width="400"/>
-<h2>
+<body>
+  Unlocked a secret area!
+  <br>
+  </h1><img src="primative.png" height="400" width="600" />
+
+  <h2>
+    What are the data types classed as under the keyword "Integer"?
+  </h2>
+
+  <script>
+    function z() {
+      var a = document.getElementById("test");
+      if ((a.value == "Primative")) {
+        document.getElementById('err').innerHTML = 'correct';
+        window.open("GroupProjectPageWIN.html")
+      }
+      else {
+        document.getElementById('err').innerHTML = 'DEAD';
+        window.open("GroupProject.html")
+      }
+    }
+  </script>
+
+  <form action="" method="GET">
+    <input type="text" id="test">
+    <input type="button" value="click" onclick="z()"><span id="err"></span>
+  </form>
+</body>
+<h1>
+
 </html>
